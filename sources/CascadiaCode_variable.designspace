@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="wght" name="Weight" minimum="200" maximum="700" default="400">
+    <axis tag="wght" name="Weight" minimum="200" maximum="700" default="560">
       <map input="200" output="140"/>
-      <map input="300" output="260"/>
-      <map input="350" output="380"/>
-      <map input="400" output="500"/>
-      <map input="600" output="650"/>
+      <map input="350" output="260"/>
+      <map input="470" output="380"/>
+      <map input="560" output="500"/>
+      <map input="660" output="650"/>
       <map input="700" output="750"/>
     </axis>
   </axes>
@@ -84,7 +84,7 @@
     </instance>
     <instance name="Cascadia Code Light" familyname="Cascadia Code" stylename="Light" filename="instance_ufos/CascadiaCode-Light.ufo">
       <location>
-        <dimension name="Weight" xvalue="260"/>
+        <dimension name="Weight" xvalue="220"/>
       </location>
       <kerning/>
       <info/>
@@ -110,7 +110,7 @@
     </instance>
     <instance name="Cascadia Code SemiLight" familyname="Cascadia Code" stylename="SemiLight" filename="instance_ufos/CascadiaCode-SemiLight.ufo">
       <location>
-        <dimension name="Weight" xvalue="380"/>
+        <dimension name="Weight" xvalue="260"/>
       </location>
       <kerning/>
       <info/>
@@ -136,7 +136,7 @@
     </instance>
     <instance name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular" filename="instance_ufos/CascadiaCode-Regular.ufo">
       <location>
-        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Weight" xvalue="310"/>
       </location>
       <kerning/>
       <info/>
@@ -160,7 +160,7 @@
     </instance>
     <instance name="Cascadia Code SemiBold" familyname="Cascadia Code" stylename="SemiBold" filename="instance_ufos/CascadiaCode-SemiBold.ufo">
       <location>
-        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Weight" xvalue="560"/>
       </location>
       <kerning/>
       <info/>
