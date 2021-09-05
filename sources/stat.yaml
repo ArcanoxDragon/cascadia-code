@@ -1,5 +1,5 @@
 # Cascadia Code
-CascadiaCode.ttf:
+CascadiaCodeLightened.ttf:
 - name: Weight
   tag: wght
   values:
@@ -27,7 +27,7 @@ CascadiaCode.ttf:
     value: 0
     linkedValue: 1
     flags: 2
-CascadiaCodeItalic.ttf:
+CascadiaCodeLightenedItalic.ttf:
 - name: Weight
   tag: wght
   values:
@@ -53,7 +53,7 @@ CascadiaCodeItalic.ttf:
   values:
   - name: Italic
     value: 1
-CascadiaCodePL.ttf:
+CascadiaCodeLightenedPL.ttf:
 - name: Weight
   tag: wght
   values:
@@ -81,7 +81,7 @@ CascadiaCodePL.ttf:
     value: 0
     linkedValue: 1
     flags: 2
-CascadiaCodePLItalic.ttf:
+CascadiaCodeLightenedPLItalic.ttf:
 - name: Weight
   tag: wght
   values:
@@ -109,7 +109,7 @@ CascadiaCodePLItalic.ttf:
     value: 1
 
 # Cascadia Mono
-CascadiaMono.ttf:
+CascadiaMonoLightened.ttf:
 - name: Weight
   tag: wght
   values:
@@ -137,7 +137,7 @@ CascadiaMono.ttf:
     value: 0
     linkedValue: 1
     flags: 2
-CascadiaMonoItalic.ttf:
+CascadiaMonoLightenedItalic.ttf:
 - name: Weight
   tag: wght
   values:
@@ -163,7 +163,7 @@ CascadiaMonoItalic.ttf:
   values:
   - name: Italic
     value: 1
-CascadiaMonoPL.ttf:
+CascadiaMonoLightenedPL.ttf:
 - name: Weight
   tag: wght
   values:
@@ -191,7 +191,7 @@ CascadiaMonoPL.ttf:
     value: 0
     linkedValue: 1
     flags: 2
-CascadiaMonoPLItalic.ttf:
+CascadiaMonoLightenedPLItalic.ttf:
 - name: Weight
   tag: wght
   values:

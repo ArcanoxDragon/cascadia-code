@@ -37,12 +37,12 @@
     </rule>
   </rules>
   <sources>
-    <source filename="CascadiaCode-ExtraLight.ufo" name="Cascadia Code ExtraLight" familyname="Cascadia Code" stylename="ExtraLight">
+    <source filename="CascadiaCode-ExtraLight.ufo" name="Cascadia Code Lightened ExtraLight" familyname="Cascadia Code Lightened" stylename="ExtraLight">
       <location>
         <dimension name="Weight" xvalue="140"/>
       </location>
     </source>
-    <source filename="CascadiaCode-Regular.ufo" name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular">
+    <source filename="CascadiaCode-Regular.ufo" name="Cascadia Code Lightened Regular" familyname="Cascadia Code Lightened" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -51,14 +51,14 @@
         <dimension name="Weight" xvalue="500"/>
       </location>
     </source>
-    <source filename="CascadiaCode-Bold.ufo" name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold">
+    <source filename="CascadiaCode-Bold.ufo" name="Cascadia Code Lightened Bold" familyname="Cascadia Code Lightened" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="750"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Cascadia Code ExtraLight" familyname="Cascadia Code" stylename="ExtraLight" filename="instance_ufos/CascadiaCode-ExtraLight.ufo">
+    <instance name="Cascadia Code Lightened ExtraLight" familyname="Cascadia Code Lightened" stylename="ExtraLight" filename="instance_ufos/CascadiaCode-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="140"/>
       </location>
@@ -82,7 +82,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Cascadia Code Light" familyname="Cascadia Code" stylename="Light" filename="instance_ufos/CascadiaCode-Light.ufo">
+    <instance name="Cascadia Code Lightened Light" familyname="Cascadia Code Lightened" stylename="Light" filename="instance_ufos/CascadiaCode-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="220"/>
       </location>
@@ -108,7 +108,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Cascadia Code SemiLight" familyname="Cascadia Code" stylename="SemiLight" filename="instance_ufos/CascadiaCode-SemiLight.ufo">
+    <instance name="Cascadia Code Lightened SemiLight" familyname="Cascadia Code Lightened" stylename="SemiLight" filename="instance_ufos/CascadiaCode-SemiLight.ufo">
       <location>
         <dimension name="Weight" xvalue="260"/>
       </location>
@@ -134,7 +134,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular" filename="instance_ufos/CascadiaCode-Regular.ufo">
+    <instance name="Cascadia Code Lightened Regular" familyname="Cascadia Code Lightened" stylename="Regular" filename="instance_ufos/CascadiaCode-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="310"/>
       </location>
@@ -158,7 +158,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Cascadia Code SemiBold" familyname="Cascadia Code" stylename="SemiBold" filename="instance_ufos/CascadiaCode-SemiBold.ufo">
+    <instance name="Cascadia Code Lightened SemiBold" familyname="Cascadia Code Lightened" stylename="SemiBold" filename="instance_ufos/CascadiaCode-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="560"/>
       </location>
@@ -184,7 +184,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold" filename="instance_ufos/CascadiaCode-Bold.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="bold">
+    <instance name="Cascadia Code Lightened Bold" familyname="Cascadia Code Lightened" stylename="Bold" filename="instance_ufos/CascadiaCode-Bold.ufo" stylemapfamilyname="Cascadia Code Lightened" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="750"/>
       </location>

@@ -42,11 +42,11 @@ NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 
 
 def step_set_font_name(name: str, source: ufoLib2.Font) -> None:
-    source.info.familyName = source.info.familyName.replace("Cascadia Code", name)
+    source.info.familyName = source.info.familyName.replace("Cascadia Code Lightened", name)
     # We have to change the style map family name because that's what
     # Windows uses to map Bold/Regular/Medium/etc. fonts
     if source.info.styleMapFamilyName:
-        source.info.styleMapFamilyName = source.info.styleMapFamilyName.replace("Cascadia Code", name)
+        source.info.styleMapFamilyName = source.info.styleMapFamilyName.replace("Cascadia Code Lightened", name)
 
 
 def step_merge_glyphs_from_ufo(path: Path, instance: ufoLib2.Font) -> None:
@@ -172,10 +172,10 @@ def prepare_fonts(
 
         set_font_metaData(source.font)
     for instance in designspace.instances:
-        instance.name = instance.name.replace("Cascadia Code", name)
-        instance.familyName = instance.familyName.replace("Cascadia Code", name)
+        instance.name = instance.name.replace("Cascadia Code Lightened", name)
+        instance.familyName = instance.familyName.replace("Cascadia Code Lightened", name)
         if instance.styleMapFamilyName:
-            instance.styleMapFamilyName = instance.styleMapFamilyName.replace("Cascadia Code", name)
+            instance.styleMapFamilyName = instance.styleMapFamilyName.replace("Cascadia Code Lightened", name)
 
 
 def to_woff2(source_path: Path, target_path: Path) -> None:
@@ -387,7 +387,7 @@ if __name__ == "__main__":
             build_font_variable,
             (
                 designspace,
-                "Cascadia Code",
+                "Cascadia Code Lightened",
                 args.vtt_compile,
             ),
         )
@@ -398,7 +398,7 @@ if __name__ == "__main__":
                 build_font_variable,
                 (
                     designspaceItalic,
-                    "Cascadia Code Italic",
+                    "Cascadia Code Lightened Italic",
                     args.vtt_compile,
                 ),
             )
@@ -409,7 +409,7 @@ if __name__ == "__main__":
                 build_font_variable,
                 (
                     designspace,
-                    "Cascadia Mono",
+                    "Cascadia Mono Lightened",
                     args.vtt_compile,
                 ),
             )
@@ -420,7 +420,7 @@ if __name__ == "__main__":
                     build_font_variable,
                     (
                         designspaceItalic,
-                        "Cascadia Mono Italic",
+                        "Cascadia Mono Lightened Italic",
                         args.vtt_compile,
                     ),
                 )
@@ -431,7 +431,7 @@ if __name__ == "__main__":
                 build_font_variable,
                 (
                     designspace,
-                    "Cascadia Code PL",
+                    "Cascadia Code Lightened PL",
                     args.vtt_compile,
                 ),
             )
@@ -442,7 +442,7 @@ if __name__ == "__main__":
                     build_font_variable,
                     (
                         designspaceItalic,
-                        "Cascadia Code PL Italic",
+                        "Cascadia Code Lightened PL Italic",
                         args.vtt_compile,
                     ),
                 )
@@ -453,7 +453,7 @@ if __name__ == "__main__":
                     build_font_variable,
                     (
                         designspace,
-                        "Cascadia Mono PL",
+                        "Cascadia Mono Lightened PL",
                         args.vtt_compile,
                     ),
                 )
@@ -464,7 +464,7 @@ if __name__ == "__main__":
                         build_font_variable,
                         (
                             designspaceItalic,
-                            "Cascadia Mono PL Italic",
+                            "Cascadia Mono Lightened PL Italic",
                             args.vtt_compile,
                         ),
                     )
@@ -479,7 +479,7 @@ if __name__ == "__main__":
                     (
                         designspace,
                         instance_descriptor,
-                        "Cascadia Code",
+                        "Cascadia Code Lightened",
                     ),
                 )
             )
@@ -490,7 +490,7 @@ if __name__ == "__main__":
                         (
                             designspace,
                             instance_descriptor,
-                            "Cascadia Mono",
+                            "Cascadia Mono Lightened",
                         ),
                     )
                 )
@@ -501,7 +501,7 @@ if __name__ == "__main__":
                         (
                             designspace,
                             instance_descriptor,
-                            "Cascadia Code PL",
+                            "Cascadia Code Lightened PL",
                         ),
                     )
                 )
@@ -512,7 +512,7 @@ if __name__ == "__main__":
                             (
                                 designspace,
                                 instance_descriptor,
-                                "Cascadia Mono PL",
+                                "Cascadia Mono Lightened PL",
                             ),
                         )
                     )
@@ -525,7 +525,7 @@ if __name__ == "__main__":
                         (
                             designspaceItalic,
                             instance_descriptor,
-                            "Cascadia Code Italic",
+                            "Cascadia Code Lightened Italic",
                         ),
                     )
                 )
@@ -536,7 +536,7 @@ if __name__ == "__main__":
                             (
                                 designspaceItalic,
                                 instance_descriptor,
-                                "Cascadia Mono Italic",
+                                "Cascadia Mono Lightened Italic",
                             ),
                         )
                     )
@@ -547,7 +547,7 @@ if __name__ == "__main__":
                             (
                                 designspaceItalic,
                                 instance_descriptor,
-                                "Cascadia Code PL Italic",
+                                "Cascadia Code Lightened PL Italic",
                             ),
                         )
                     )
@@ -558,7 +558,7 @@ if __name__ == "__main__":
                                 (
                                     designspaceItalic,
                                     instance_descriptor,
-                                    "Cascadia Mono PL Italic",
+                                    "Cascadia Mono Lightened PL Italic",
                                 ),
                             )
                         )
