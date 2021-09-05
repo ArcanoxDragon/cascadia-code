@@ -5,10 +5,13 @@ CascadiaCode.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
@@ -30,10 +33,13 @@ CascadiaCodeItalic.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
@@ -53,10 +59,13 @@ CascadiaCodePL.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
@@ -78,10 +87,13 @@ CascadiaCodePLItalic.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
@@ -103,10 +115,13 @@ CascadiaMono.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
@@ -128,10 +143,13 @@ CascadiaMonoItalic.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
@@ -151,10 +169,13 @@ CascadiaMonoPL.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
@@ -176,10 +197,13 @@ CascadiaMonoPLItalic.ttf:
   values:
   - name: ExtraLight
     value: 200
+    linkedValue: 700
   - name: Light
     value: 300
+    linkedValue: 700
   - name: SemiLight
     value: 350
+    linkedValue: 700
   - name: Regular
     value: 400
     linkedValue: 700
